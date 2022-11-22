@@ -12,7 +12,93 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+     <ul>
+       <li>HTML stands for HyperText Markup Language</li>
+       <li>The head element contains information about the webpage</li>
+       <li>The head element is a container used for metadata</li>
+       <li>Meta elements contain info about the page used by the browser</li>
+       <li>The body element represents visible content shown to the user</li>
+       <li>In semantic HTML elements, the name of the element describes its 
+        content and the role it plays on a webpage</li>
+        <li>Sometimes elements are parents who like to have children</li>
+        
+        <h4>Metadata tags used inside the head element</h4>
+      <ul>
+        <li>The title element defines the title. Required, seen in tab, important for SEO</li>
+        <li>The style element defines the CSS styles</li>
+        <li>The base element defines the base URL for a webpage</li>
+        <li>The link element connects an external resource to the HTML document</li>
+        <li>The meta element defines metadata such as the character set, description, 
+          keywords, author, and viewport</li>
+        <li>The script element embeds client-side scripts in the HTML document</li>
+      </ul>
+        <h4>Elements used in the body</h4>
+      <ul>
+        <li>h1, h2, h3, h4, h5, and h6 elements represent the level of heading</li>
+        <li>The p element represents a paragraph of text</li>
+        <li>ul, ol, and li represent unordered lists, ordered lists, and list items</li>
+        <li>The img element is for images, can include various attributes.
+          src defines the location of the image</li>
+        <li>The br element creates a line of empty space</li>
+        <li>The a element (anchor) creates links to webpages.
+          The href attribute points to the URL</li>
+      </ul>
+      </ul>
+
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>CSS stands for Cascading Style Sheets</li>
+          <li>CSS is used to stylize elements written in a markup language such as HTML</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>Git is a version control system that lets you manage and keep track of each version of your project.</li>
+          
+          <h4>Some Git commands include:</h4>
+          <ul>
+            <li><b>git status:</b> checks what branch we are currently on</li>
+            <li><b>git add -A:</b> commit all files in the working branch</li>
+            <li><b>git commit -m "[descriptive message]":</b> commit your staged content as a new commit snapshot</li>
+            <li><b>git branch:</b> list your branches</li>
+            <li><b>git branch [branch-name]:</b> create a new branch at the current commit</li>
+            <li><b>git checkout:</b> switch to another branch and check it out into your working directory</li>
+            <li><b>git checkout -b branch-name:</b> creates a new branch and switches to it</li>
+            <li><b>git merge [branch]:</b> merge the specified branch's history into your working directory</li>
+            <li><b>git fetch [alias]:</b> fetch down all the branches from that git remote</li>
+            <li><b>git merge [alias]/[branch]:</b> merge a remote branch into your current branch to bring it up to date</li>
+            <li><b>git push [alias] [branch]:</b> transmit local branch commits to the remote repository branch</li>
+            <li><b>git pull:</b> fetch and merge any commits from the tracking remote branch</li>
+          </ul>
+          <h4>Git flow steps:</h4>
+            <ol>
+              <li>Make sure we are on the right branch</li>
+              <li>Stage changes using the command: <b>git add -A</b></li>
+              <li>Commit changes to repository using command: <b>git commit -m "[description]"</b></li>
+              <li>Make sure current local branch is up to date with remote branch: <b>git pull origin main</b></li>
+              <li>Push up changes: <b>git push origin [branch-name]</b></li>
+              <li>Navigate to your branch on GitHub. Click "Pull Requests" tab, then click "New pull request" button</li>
+              <li>Check that the "base" branch is set to the one we want to merge into, and the "compare" branch is our edited branch</li>
+              <li>Give your PR a title and short description, then click "Create pull request"</li>
+              <li>Click "Merge pull request"</li>
+              <li>Update local repo with the new merged-in feature: <b>git checkout main</b>, then <b>git pull origin main</b></li>
+            </ol>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>JavaScript is a scripting language used to create and control dynamic website content</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
